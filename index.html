@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here.</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+
+
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/agar tum sath ho.jpg" alt="1">
+                    <span>Agar Tum Sath Ho</span>
+                    <span class="songlistplay"><span class="timestamp">05:41 <i id="0"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/tumse.jpg" alt="1">
+                    <span>Tum Se</span>
+                    <span class="songlistplay"><span class="timestamp">04:24 <i id="1"
+                                class="far songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/dil se dil tak.jpg" alt="1">
+                    <span>Dil se Dil tak</span>
+                    <span class="songlistplay"><span class="timestamp">05:01 <i id="2"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/dayre.jpg" alt="1">
+                    <span>Daayre</span>
+                    <span class="songlistplay"><span class="timestamp">04:50 <i id="3"
+                                class="far songItemPlay  fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/sajda.jpg" alt="1">
+                    <span>Sajda</span>
+                    <span class="songlistplay"><span class="timestamp">06:01 <i id="4"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/jeete hain chal.jpg" alt="1">
+                    <span>Jeete hain chal</span>
+                    <span class="songlistplay"><span class="timestamp">04:08 <i id="5"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/manchala.jpg" alt="1">
+                    <span>Manchala</span>
+                    <span class="songlistplay"><span class="timestamp">05:08 <i id="6"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="covers/mann mera.jpg" alt="1">
+                    <span>Mann Mera</span>
+                    <span class="songlistplay"><span class="timestamp">04:31 <i id="7"
+                                class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+            <div class="songBanner"></div>
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" srcset="" id="gif"><span id="masterSongName"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
